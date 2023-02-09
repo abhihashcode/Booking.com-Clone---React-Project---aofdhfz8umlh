@@ -1,0 +1,143 @@
+.form_mains {
+  /* background-color: red;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center; */
+
+  background-color: rgb(212, 209, 209);
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 50px;
+  /* justify-content: space-between; */
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 0.5rem;
+}
+
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 350px;
+  position: relative;
+
+  border: 4px solid rgb(5, 87, 112);
+  border-radius: 0.4rem;
+}
+
+
+
+.passanger_heding {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  font-size: 30px;
+  background: rgb(5, 87, 112);
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.passenger_input_name {
+  width: 250px;
+  border-radius: 4px;
+  height: 47px;
+  margin: 17px;
+  padding: 11px;
+}
+
+.passenger_input_age {
+  width: 250px;
+  border-radius: 4px;
+  height: 47px;
+  margin: 17px;
+  padding: 11px;
+}
+
+.class_div {
+  display: flex;
+
+  align-items: center;
+
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.class_label {
+  margin: 5px;
+  font-size: larger;
+}
+
+.payment {
+  margin: 30px;
+  margin-left: 63px;
+}
+
+.checkout_button {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0.5rem;
+  background: black;
+  color: white;
+}
+
+.checkout_button:hover {
+  background-image: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 80%,
+    #00c0ff 100%
+  );
+  animation: slidebg 5s linear infinite;
+}
+
+/* */
+/* .Economy_label{
+    position: relative;
+    right: 47px;
+  } */
+/* .people{
+    display: flex;
+      justify-content: center;
+      position: relative;
+      left: 39px;
+  } */
+
+/* .select_box{
+    height: 37px;
+    padding: 8px;
+    position: relative;
+      left: 72px;
+  }
+  
+  .people_class{
+    position: relative;
+    left: 30px;
+  }
+  
+  .child_div{
+    position: relative;
+    left: 25px;
+  }
+  .child_span{
+    left: 58px;
+    position: relative;
+  }
+ 
+  .checkout_button{
+      width: 200px;
+      height: 50px;
+      background: rgb(5, 87, 112);
+      color: white;
+      border-radius: 5px;
+      position: relative;
+      bottom: 43px;
+      right: 334px;
+      top: 47px;
+  } */

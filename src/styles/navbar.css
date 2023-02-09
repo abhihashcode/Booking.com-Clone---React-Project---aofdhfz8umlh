@@ -1,0 +1,31 @@
+.bt {
+  margin-right: 10px;
+  margin-top: 0%;
+  display: flex;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.flight {
+  margin: 3px;
+  display: inline-block;
+  list-style: none;
+  color: white;
+  font-size: large;
+  margin-right: 20px;
+}
+
+.flight:hover {
+  color: yellow;
+}

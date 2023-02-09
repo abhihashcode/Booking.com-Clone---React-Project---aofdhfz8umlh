@@ -1,0 +1,71 @@
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card_ceckout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 374px;
+  height: 340px;
+  padding: 24px;
+  margin: 31px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  margin-top: 100px;
+  border-radius: 0.5rem;
+}
+.card_ceckout1 {
+  width: 410px;
+  padding: 24px;
+  margin: 31px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border-radius: 0.5rem;
+  margin-top: 100px;
+}
+
+.form-control1 {
+  width: 330px;
+  height: 39px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.span {
+  color: aliceblue;
+  margin-top: 7px;
+  padding-top: 8px;
+  width: 80px;
+}
+.card_body {
+  margin-bottom: 13px;
+  width: 300px;
+}
+.card_body1 {
+  margin-bottom: 13px;
+  width: 305px;
+  display: flex;
+}
+
+.pay_button {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0.5rem;
+  background: black;
+  color: white;
+}
+
+.pay_button:hover {
+  background-image: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 80%,
+    #00c0ff 100%
+  );
+  animation: slidebg 5s linear infinite;
+}

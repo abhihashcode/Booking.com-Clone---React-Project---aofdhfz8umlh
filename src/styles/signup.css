@@ -1,0 +1,56 @@
+.cons{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    background: white;
+          
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+
+.starting{
+    display: flex;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(188, 184, 184);
+    box-shadow: 10px 5px 5px rgb(135, 131, 131);
+    padding: 40px;
+    border-radius: 0.5rem;
+   
+}
+
+.buttons{ 
+    background: black;
+    padding: 10px;
+}
+
+.buttons:hover{
+        background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+        animation:slidebg 5s linear infinite;   
+}
+
+
+.para{
+    margin-top: 15px;  
+    right: 200px;
+}
+
+.inp{
+    padding: 10px;
+    border: 2px solid rgb(126, 126, 131);
+}
+
+.text-center{
+    margin-bottom: 20px;
+}

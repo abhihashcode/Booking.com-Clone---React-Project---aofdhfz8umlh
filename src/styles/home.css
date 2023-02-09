@@ -1,0 +1,51 @@
+
+.journey{
+    color: yellow;
+    display: flex;
+    margin-top: 180px;
+  }
+  
+  .jou{
+    margin-left: 60px;
+  }
+  .container_1{
+    border-radius: 0.5rem;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .box{
+     margin-right: 10px;
+    
+  }
+  .search{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+  
+  }
+ 
+   .btn-1{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0.5rem; 
+    background: black; 
+    color: white;
+   }
+  
+   .btn-1:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+   }
+
+  
+  
+ 

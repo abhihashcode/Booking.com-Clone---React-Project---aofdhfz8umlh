@@ -1,0 +1,44 @@
+.main_containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* width: 60vw; */
+  padding: 30px;
+  gap: 20px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.head {
+  font-size: 37px;
+  margin-top: 30px;
+}
+
+.button_book {
+  width: 36%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0.4rem;
+  background: black;
+  color: white;
+}
+
+.button_book:hover {
+  background-image: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 80%,
+    #00c0ff 100%
+  );
+  animation: slidebg 5s linear infinite;
+}
